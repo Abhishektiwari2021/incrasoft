@@ -1,42 +1,56 @@
-
-<nav class="navbar navbar-dark bg-black">
-    <div class="container-fluid  row">
-      <!-- Left side: Company logo -->
-      <div class="navbar-brand col-2">
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid row">
+    <!-- Left side: Company logo -->
+    <!-- <div class="navbar-brand col-2">
         <img src="assets/incrasoftlogo.jpg" alt="Company Logo" width="50" height="50">
+      </div> -->
+
+    <!-- Middle: Search bar -->
+    <div class="d-flex justify-content-center align-items-center col-8">
+      <div class="input-group">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Search Patient, Doctor, Test, Laborateries & setting"
+          aria-label="Search"
+        />
       </div>
-  
-      <!-- Middle: Search bar -->
-      <div class="d-flex justify-content-center align-items-center col-6">
-        <form class="form-inline">
-          <div class="input-group">
-            <input class="form-control" type="text" placeholder="Search Patient, Doctor, Test, Laborateries & setting" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-outline-light" type="submit">Search</button>
-            </div>
-          </div>
-        </form>
-      </div>
-      
-  
-      <!-- Right side: User information and logout button -->
-      <!-- <ul class="navbar-nav ml-auto"> -->
+    </div>
+
+    <!-- Right side: User information and logout button -->
+    <!-- <ul class="navbar-nav ml-auto"> -->
     <div class="d-flex justify-content-end align-items-center col-3">
-        <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="assets/scan pic.jpg" alt="User Photo" width="30" height="30" class="rounded-circle text-white">
-            By Abhi
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown" (click)="showDropDown()">
+          <a
+            class="nav-link dropdown-toggle"
+            id="userDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/scan pic.jpg"
+              alt="User Photo"
+              width="30"
+              height="30"
+              class="rounded-circle text-white"
+            />
+            <span class="text-dark px-3">By Abhi</span>
           </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item" >Profile</a>
-            <a class="dropdown-item" >Settings</a>
+          <div
+            id="dropDownMenu"
+            class="dropdown-menu dropdown-menu-right"
+            aria-labelledby="userDropdown"
+          >
+            <a class="dropdown-item text-dark">Profile</a>
+            <a class="dropdown-item">Settings</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item">Logout</a>
           </div>
         </li>
-    </ul>
+      </ul>
     </div>
-   </div>
-  </nav>
-  
+  </div>
+</nav>
