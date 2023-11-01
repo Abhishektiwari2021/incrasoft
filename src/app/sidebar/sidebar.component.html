@@ -1,0 +1,33 @@
+<div class="sidebar">
+    <div class="sidebar-toggle">
+      <span (click)="toggleSidebar()">&#9776;</span>
+    </div>
+    <ul *ngIf="isSidebarOpen">
+      <li>Dashboard</li>
+      <li>Patients
+        <ul>
+          <li>Patient</li>
+          <li>Sample Processing</li>
+          <li>Messenger</li>
+        </ul>
+      </li>
+      <li>Services
+        <ul>
+          <li>Home Service</li>
+          <li>Lab Packages</li>
+          <li>Referrals</li>
+        </ul>
+      </li>
+      <li>Management
+        <ul>
+          <li>Manage Branches</li>
+          <li>Manage Employees</li>
+          <li>Inventory</li>
+          <li>Accounts</li>
+        </ul>
+      </li>
+      <li>Analytics</li>
+      <li>Marketing</li>
+    </ul>
+  </div>
+  

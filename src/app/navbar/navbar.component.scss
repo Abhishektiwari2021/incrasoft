@@ -1,0 +1,59 @@
+/* navbar.component.css */
+.navbar {
+    padding: 0;
+    background-color: black;
+    
+    height: auto;
+  }
+  
+  .navbar-brand {
+    margin-right: 15px;
+  }
+  
+  .form-inline {
+    margin: 0;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .dropdown-item {
+    color: #333; /* Change the text color for dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Change the background color on hover */
+  }
+  /* Add CSS for light-colored placeholder text */
+ .form-control::placeholder {
+    color: #ccc; /* You can adjust the color as needed */
+  }
+  
+  /* Center the search icon vertically */
+  #search-icon {
+    display: flex;
+    align-items: center;
+  }
+  /* Add CSS to increase the height of the search bar */
+.search-bar {
+    width: 200px;
+    height: 20px; /* Adjust the height as needed */
+  }
+  
+  /* Add CSS for light-colored placeholder text */
+  .search-bar::placeholder {
+    color: #ccc; /* You can adjust the color as needed */
+  }
+  
+  /* Center the search icon vertically */
+  #search-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  
