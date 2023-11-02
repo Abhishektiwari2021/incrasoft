@@ -1,0 +1,33 @@
+.bold-label {
+    font-weight: bold; /* Make the label text bold */
+    // font-size: 1.1em; /* Increase the font size (adjust the value as needed) */
+    
+  }
+.background-col{
+    background-color:rgb(243, 241, 241);
+}
+  
+
+.custom-table {
+    border-collapse: collapse; /* Ensure borders collapse properly */
+    width: 100%; /* Adjust the width as needed */
+    border: 2px solid #000; /* Set the border width and color */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #000; /* Add borders to table cells (th and td) */
+    padding: 8px; /* Add some padding for better spacing */
+    text-align: left; /* Adjust the text alignment as needed */
+  }
+  
+  /* Style for table header cells */
+  .custom-table th {
+    background-color: #f2f2f2; /* Background color for table header cells */
+  }
+/* Add horizontal space between the buttons */
+td button {
+    margin-right: 10px; /* Adjust the margin as needed for the desired spacing */
+  }
+
+      
