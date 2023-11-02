@@ -1,33 +1,95 @@
 <div class="sidebar">
-    <div class="sidebar-toggle">
-      <span (click)="toggleSidebar()">&#9776;</span>
-    </div>
-    <ul *ngIf="isSidebarOpen">
-      <li>Dashboard</li>
-      <li>Patients
-        <ul>
-          <li>Patient</li>
-          <li>Sample Processing</li>
-          <li>Messenger</li>
-        </ul>
-      </li>
-      <li>Services
-        <ul>
-          <li>Home Service</li>
-          <li>Lab Packages</li>
-          <li>Referrals</li>
-        </ul>
-      </li>
-      <li>Management
-        <ul>
-          <li>Manage Branches</li>
-          <li>Manage Employees</li>
-          <li>Inventory</li>
-          <li>Accounts</li>
-        </ul>
-      </li>
-      <li>Analytics</li>
-      <li>Marketing</li>
-    </ul>
+  <div class="logo">IncraSoft</div>
+  <!-- Sidebar Menu Items -->
+  <div
+    class="menu-item"
+    routerLink="dashboard"
+    routerLinkActive="menu-item-active"
+  >
+    Dashboard
   </div>
-  
+  <div
+    class="menu-item"
+    routerLink="patient"
+    routerLinkActive="menu-item-active"
+  >
+    Patients
+  </div>
+  <div
+    class="menu-item"
+    routerLink="processing"
+    routerLinkActive="menu-item-active"
+  >
+    Sample Processing
+  </div>
+  <div
+    class="menu-item"
+    routerLink="messenger"
+    routerLinkActive="menu-item-active"
+  >
+    Messenger
+  </div>
+  <div
+    class="menu-item"
+    routerLink="home-services"
+    routerLinkActive="menu-item-active"
+  >
+    Home Services
+  </div>
+  <div
+    class="menu-item"
+    routerLink="lab-packages"
+    routerLinkActive="menu-item-active"
+  >
+    Lab Packages
+  </div>
+  <div
+    class="menu-item"
+    routerLink="referrals"
+    routerLinkActive="menu-item-active"
+  >
+    Referrals
+  </div>
+  <div
+    class="menu-item"
+    routerLink="marketing"
+    routerLinkActive="menu-item-active"
+  >
+    Marketing
+  </div>
+  <div
+    class="menu-item"
+    routerLink="inventory"
+    routerLinkActive="menu-item-active"
+  >
+    Inventory
+  </div>
+  <div
+    class="menu-item"
+    routerLink="accounts"
+    routerLinkActive="menu-item-active"
+  >
+    Accounts
+  </div>
+  <div
+    class="menu-item"
+    routerLink="manage-branches"
+    routerLinkActive="menu-item-active"
+  >
+    Manage Branches
+  </div>
+  <div
+    class="menu-item"
+    routerLink="manage-employees"
+    routerLinkActive="menu-item-active"
+  >
+    Manage Employees
+  </div>
+  <div
+    class="menu-item"
+    routerLink="analytics"
+    routerLinkActive="menu-item-active"
+  >
+    Analytics
+  </div>
+</div>
