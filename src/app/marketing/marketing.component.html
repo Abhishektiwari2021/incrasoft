@@ -40,7 +40,7 @@
     </ul>
   </div>
   <div class="d-flex p-3 gap-3">
-    <button class="btn btn-primary"><i class="fa fa-coin"></i> Balance</button>
+    <button class="btn btn-primary"><i class="fa fa-coin"></i> Add Balance</button>
     <button class="btn btn-primary"><i class="fa fa-reset"></i> History</button>
 
     <button class="btn btn-outline-secondary rounded-circle">i</button>
@@ -69,28 +69,33 @@
 </div>
 <div class="message-section col-6">
   <!-- Message Input and Details -->
-  <div class="d-flex gap-3">
-    <div class="col-6">
-      <label for="sendTo">Select Campaign</label>
-      <br />
-      <select>
+  <div class="d-flex gap-3 ">
+    <div class="col-6 card">
+      <!-- <label for="sendTo">Select Campaign</label> -->
+      <!-- <br /> -->
+        <label for="sendTo">
+    <span class="info-button">i</span>
+    Select Campaign
+  </label>
+      <select >
         <option value="greetings">Greetings</option>
         <!-- Add other options -->
       </select>
     </div>
-    <div class="col-5">
+    <div class="col-6 card">
       <label for="sendTo">Send To</label>
-      <br />
-      <select id="sendTo" name="sendTo">
+      <!-- <br /> -->
+      <select  id="sendTo" name="sendTo">
         <option value="refdoctors">Ref. Doctors & Labs</option>
         <!-- Add other options -->
       </select>
     </div>
   </div>
+  <br>
 
   <div>
     <textarea>
-  Hi {Name}, Very Happy [Festival Name] to You & Your Family...</textarea
+  Hi {Name}, Very Happy [Festival Name] to You & Your Family.....</textarea
     >
   </div>
   <button class="btn"><i class="fa fa-plus"></i> Add Variable</button>

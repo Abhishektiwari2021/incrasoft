@@ -44,7 +44,7 @@ export class PatientComponent {
     this.http.post("http://127.0.0.1:8000/student",bodyData).subscribe((resultData: any)=>
     {
         console.log(resultData);
-        alert("Student Registered Successfully");
+        alert("Patient Registered Successfully");
         this.getAllStudent();
     });
   }
@@ -84,7 +84,7 @@ export class PatientComponent {
     this.http.put("http://127.0.0.1:8000/student/"+ this.currentStudentID , bodyData).subscribe((resultData: any)=>
     {
         console.log(resultData);
-        alert("Student Registered Updateddd")
+        alert("Patient Registered Updated")
         this.name = '';
         this.address = '';
         this.fee  = 0;
@@ -98,7 +98,7 @@ export class PatientComponent {
     this.http.delete("http://127.0.0.1:8000/student"+ "/"+ data.id).subscribe((resultData: any)=>
     {
         console.log(resultData);
-        alert("Student Deletedddd")
+        alert("Patient data Deleted")
         this.getAllStudent();
     });
  

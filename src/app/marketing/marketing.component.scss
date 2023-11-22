@@ -67,3 +67,18 @@
 .nav-link:hover {
   cursor: pointer;
 }
+
+/* Add this CSS to your stylesheet */
+.info-button {
+  background-color:rgb(181, 177, 177); /* Change the background color as needed */
+  color: white; /* Change the text color as needed */
+  padding: 3px 6px; /* Adjust padding as needed */
+  border-radius: 50%; /* Make it circular */
+  border-color: black;
+  margin-right: 8px; /* Adjust the margin to control the spacing between the button and text */
+  font-size: 10px; /* Adjust the font size as needed */
+  cursor: pointer; /* Change the cursor style on hover, if desired */
+}
+
+/* Add this CSS to your stylesheet */
+
